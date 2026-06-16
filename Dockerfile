@@ -1,6 +1,6 @@
 FROM shawoo/all-in-one-sandbox:FDEP
 
-COPY lab/bin/  /usr/local/bin/
+# COPY lab/bin/  /usr/local/bin/
 
 RUN npm i -g -U opencode-ai@latest openclaw@latest @mariozechner/pi-coding-agent
 
